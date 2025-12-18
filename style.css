@@ -1,0 +1,49 @@
+
+header{
+font-family: "Faster One", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  size: 60 px;
+
+}
+
+body{
+  font-family: faster one;
+}
+
+.slider{
+  width: 50%; 
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */ 
+  color: rgb(185, 157, 157);
+  margin-bottom: 1px;
+    accent-color: red;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+  color: rgb(57, 0, 244);
+  accent-color: red;
+}
+
+button{
+  background-color: rgb(222, 64, 64);
+  padding: 20px;
+  border: 1; 
+  margin-bottom: 50px;
+  border-radius: 10px;
+  border-color: red;
+}
+
+select{
+  margin-right: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.outputBox{
+  padding: 10px;
+  min-height: 160px;
+  width: 60%;
+  outline-color: rgb(255, 0, 0);
+  outline-style: solid;
+  border-radius: 10px;
+}
