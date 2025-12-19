@@ -1,5 +1,3 @@
-
-
 // Dataset Source: "Fast Food Nutrition" CSV from Blair McAvoy GitHub
 var url = "https://raw.githubusercontent.com/b-mcavoy/datasets/refs/heads/main/Science/Fast%20Food%20Nutrition.csv"
 var foodName = getColumn(url, 1)
@@ -61,7 +59,3 @@ function showCal(){ //defined function called showCal
     var size= document.getElementById("selectedCal").value; // Declares a variable 'size' and assigns it the value of an HTML element with id "selected Cal".
     document.getElementById("sliderVal").innerHTML= size +" Calories or less" // Updates the inner HTML of an element with id "sliderVal" to display the 'size' value followed by " Calories or Less".
 }
-
-showCal();
-
-
