@@ -17,6 +17,7 @@ body{
   color: rgb(185, 157, 157);
   margin-bottom: 1px;
     accent-color: red;
+    cursor :pointer;
     
 }
 
@@ -34,6 +35,7 @@ button{
   margin-bottom: 50px;
   border-radius: 10px;
   border-color: red;
+  cursor :pointer;
 }
 
 
@@ -42,6 +44,7 @@ select{
   font-family: Georgia, 'Times New Roman', Times, serif
 
 }
+
 .outputBox{
   padding: 10px;
   min-height: 550px;
